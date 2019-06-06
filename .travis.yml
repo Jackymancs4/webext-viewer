@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "10"
 script:
-  - node make.js
+  - node make.js web
 deploy:
   provider: pages
   skip_cleanup: true
