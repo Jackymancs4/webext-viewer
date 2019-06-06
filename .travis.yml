@@ -7,3 +7,5 @@ deploy:
   keep_history: true
   target_branch: gh-pages
   local_dir: dist/web
+  on:
+    branch: feature/travis-ci-deploy
