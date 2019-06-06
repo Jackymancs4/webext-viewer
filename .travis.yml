@@ -1,5 +1,6 @@
 language: node_js
-
+script:
+  - node make.js
 deploy:
   provider: pages
   skip_cleanup: true
